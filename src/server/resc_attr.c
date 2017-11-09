@@ -796,7 +796,6 @@ apply_aoe_inchunk_rules(resource *presc, attribute *pattr, void *pobj,
 					free(aoe_req);
 				if (aoename)
 					free(aoename);
-				return PBSE_IVAL_AOECHUNK;      /* rule (a) */
 			}
 		}
 	}
